@@ -1,17 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concierto Estadio Polideportivo Envigado</title>
+    <link rel="stylesheet" href="/assets/css/estilos.css">
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+    <header>
+        <nav>
+            <img src="/assets/img/glasses-190971_640.jpg" alt="" class="gafas">
+            <ul>
+                <li><a href="#artista">Artista</a></li>
+                <li><a href="#musica">Música</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#lugar">Lugar</a></li>
+                <li><a href="#boleta">Boleta</a></li>
+                <li><a href="#contacto">Contacto</a></li> 
+            </ul>
+            <input type="text" placeholder="Buscar..." class="input group">
+        </nav>
+    </header>
 
+    <main class="main-container">
+        <section id="artista">
+            <h2>Sobre Andrés Cepeda</h2> <br>
+            <p>Nacido en Bogotá, Colombia, Andrés Cepeda es uno de los cantantes y compositores más reconocidos en la escena musical de Latinoamérica. 
+                <br><br>
+                Cuenta con una trayectoria de más de 30 años que le ha permitido recorrer el mundo, estar en la portada de múltiples revistas, periódicos y listas de reproducción en las principales plataformas de música. Ha sido ganador de múltiples premios y ha sido coach principal en programas de talentos, incluidas 11 temporadas de "La Voz" en su país natal, Colombia. También alcanzó la cima de las listas de radio con innumerables sencillos y ha sido el protagonista en shows en vivo y grabaciones de estudio con superestrellas latinas como Sebastián Yatra, Jesse & Joy, Cali & El Dandee, Morat, Joss Favela, Leo Dan, Fonseca, Ricardo Montaner, Kany García y Tommy Torres, entre muchos otros. <br> <br>
+                
+                Ha recibido quince nominaciones a los Premios Grammy Latinos, resultando ganador en cuatro oportunidades. Su carrera como solista ha sido merecedora de múltiples discos de diamante, platino y oro en las catorce producciones publicadas. <br><br>
+                
+                Su estilo musical romántico marca un sello único e inconfundible, que le ha permitido fusionar distintos géneros, rescatando siempre letras que hablan sobre el amor y el desamor. <br><br>
+                
+                Andrés Cepeda se caracteriza por su creatividad a la hora de presentar sus espectáculos al público. Entre los formatos más reconocidos están Cepeda Big Band, Cepeda Sinfónico, los formatos con su banda completa y Cepeda en Tablas, una puesta en escena con música y humor, donde se cuentan las historias detrás de sus canciones. Todo esto ha convertido a Andrés Cepeda en uno de los artistas más respetados y queridos en América Latina. <br> <br>
+            </p>
+        </section>
+    </main>
+
+        <section class="musica" id="musica">
+            <h2>Video</h2>
+            <div>
+                <div class="content">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bN6zvApFnuc?si=u1mdqYefVcTKRTGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <hr>
+                    <div class="container">
+                        <h2>Música</h2>
+                        <audio controls>
+                            <source src="/assets/audio/Andrés Cepeda - Por El Resto De Mi Vida (Video Oficial).mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="galeria-container" id="galeria">
+            <h2>Galería de imágenes</h2> <br>
+            <div class="card-container">
+                <div class="card">
+                    <img src="/assets/img/andres-cepeda-concierto1.jpg" alt="Descripción de la imagen">
+                
+                </div>
+                <div class="card">
+                    <img src="/assets/img/Andres-concierto2.avif" alt="Descripción de la imagen">
+                </div>
+                <div class="card">
+                    <img src="/assets/img/andres-concierto3.avif" alt="Descripción de la imagen">
+                </div>
+        </section>
+        <hr>
+        <section class="lugar-container" id="lugar">
+            <h2>Información del Lugar</h2>
+            <div>
+                <p>El Concierto se realizará en el Estadio Polideportivo Envigado, Medellín</p>
+                <h3>Cómo llegar</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1729719131158!6m8!1m7!1sAjMS97UDfYogYgVOUpISKQ!2m2!1d6.16482495709604!2d-75.59834266739671!3f251.94705680160106!4f-9.571846434219225!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3966.7487794208655!2d-75.5996667!3d6.1643889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDknNTEuOCJOIDc1wrAzNSc1OC44Ilc!5e0!3m2!1ses-419!2sco!4v1729708701675!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div>
+                    <p>Zona 8, 055422, Envigado, Antioquia, Colombia</p>
+                    <p>Sábado, 2 de noviembre de 2024 <br> 8:30 p. m.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="boleta-container" id="boleta">
+            <h2>Información de Boletería</h2><br>
+            <div>
+                <table border>
+                    <tr>
+                        <th>Sector</th>
+                        <th>Precio</th>
+                        <th>Aforo</th>
+                    </tr>
+                    <tr>
+                        <td>Palco</td>
+                        <td>$1,500,000</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td>VIP</td>
+                        <td>$720,000</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>Preferencial</td>
+                        <td>$550,000</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>General</td>
+                        <td>$300,000</td>
+                        <td>2000</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <hr>
+        <section class="contacto" id="contacto"> 
+            <h2>Contáctanos</h2> <br>
+            <form action="">
+                <input type="text" name="nombre" placeholder="Escriba su nombre" required>
+                <input type="email" name="correo" placeholder="Escriba su correo" required>
+                <textarea name="mensaje" placeholder="Escriba su mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+   
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/andrescepedaoficial/" target="_blank">
+                <img src="/assets/img/facebook.jpg" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/andrescepeda/" target="_blank">
+                <img src="/assets/img/instagram.avif" alt="instagram">
+            </a>
+            <a href="https://x.com/andrescepeda" target="_blank">
+                <img src="/assets/img/x.avif" alt="Twitter">
+            </a>
+            <a href="https://web.whatsapp.com/" target="_blank">
+                <img src="/assets/img/hatsapp.avif" alt="whatsapp">
+            </a>
+           <a href="https://music.apple.com/co/artist/andr%C3%A9s-cepeda/139985795" target="_blank">
+                <img src="/assets/img/Musica.png" alt="Musica">
+           </a>
+
+            
+        </div>
+        <p>&copy; 2024 - Concierto Estadio Polideportivo Envigado. Todos los derechos reservados <br> Estefany Soto Quintero <br> Daruin Montoya Quiroz <br> Ficha: 2996760</p>
+    </footer>
+</body>
 </html>
