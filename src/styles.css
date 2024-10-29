@@ -11,7 +11,8 @@ html {
 body {
   font-family: Georgia, 'Times New Roman', Times, serif; /* Define la fuente del texto en el cuerpo */
   line-height: 1.6; /* Mejora la legibilidad al aumentar la altura de línea */
-  background-image:url(/assets/img/backdrop-874452_1920.jpg);
+  background-color: black;
+  color: white;
 }
 
 header {
